@@ -6,7 +6,7 @@ import argparse
 import sys
 import hashlib
 
-parser = argparse.ArgumentParser(description='''범용 파일 암호화 프로그램입니다. 해당 프로글매 사용시 민감한 정보가 노출되거나 유실되더라도 제작자는 책임지지 않습니다!''')
+parser = argparse.ArgumentParser(description='''범용 파일 암호화 프로그램입니다. 해당 프로그램 사용시 민감한 정보가 노출되거나 유실되더라도 제작자는 책임지지 않습니다!''')
 parser.add_argument('--EncDec', required=True, help='select Encrypt or Decrypt')
 parser.add_argument('--source', help='source file path.')
 parser.add_argument('--key', help='Encrypt Key')
